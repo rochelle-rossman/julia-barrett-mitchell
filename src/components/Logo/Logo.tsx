@@ -17,13 +17,12 @@ export const Logo = (props: Props) => {
   return (
     <Image
       alt="Logo"
-      width={200}
-      height={34}
+      width={100}
+      height={100}
       loading={loading}
       fetchPriority={priority}
       decoding="async"
-      // className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
-      src="/btb-logo-text.png"
+      src="/btb-logo-circle-black.png"
     />
   )
 }
