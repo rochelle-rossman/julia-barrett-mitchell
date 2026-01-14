@@ -1,7 +1,7 @@
 {
-  "name": "with-vercel-website",
+  "name": "better-than-bad-films",
   "version": "1.0.0",
-  "description": "Website template for Payload",
+  "description": "Better Than Bad Films",
   "license": "MIT",
   "type": "module",
   "scripts": {
