@@ -26,14 +26,12 @@ export const generateMeta = async (args: {
 
   const ogImage = getImageURL(doc?.meta?.image)
 
-  const title = doc?.meta?.title
-    ? doc?.meta?.title + ' | Payload Website Template'
-    : 'Payload Website Template'
+  const title = doc?.meta?.title ? doc?.meta?.title : 'Better Than Bad Films'
 
   return {
     description: doc?.meta?.description,
     openGraph: mergeOpenGraph({
-      description: doc?.meta?.description || '',
+      description: doc?.meta?.description || 'Better Than Bad Films',
       images: ogImage
         ? [
             {

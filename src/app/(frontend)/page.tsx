@@ -31,10 +31,7 @@ export default function Home() {
 
   return (
     <div className="w-full h-full overflow-x-hidden">
-      <section
-        className="relative h-full overflow-hidden"
-        data-parallax
-      >
+      <section className="relative h-full overflow-hidden" data-parallax>
         <video autoPlay loop muted className="w-full h-auto">
           <source src="/website-reel.mp4" type="video/mp4" />
         </video>
@@ -55,7 +52,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center  bg-black bg-opacity-25">
           <div className="text-white font-mono font-medium text-center p-4 flex flex-col gap-4">
             <p className="text-2xl">This is a test.</p>
-            <p className="text-3xl">Website is currently under construction.</p>
+            <p className="text-3xl">Website under construction. Stay tuned for more soon!</p>
             <p className="text-4xl">This is only a test.</p>
           </div>
         </div>
