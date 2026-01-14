@@ -17,8 +17,8 @@ export const Logo = (props: Props) => {
   return (
     <Image
       alt="Logo"
-      width={100}
-      height={100}
+      width={60}
+      height={60}
       loading={loading}
       fetchPriority={priority}
       decoding="async"
